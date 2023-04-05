@@ -1,0 +1,61 @@
+:root{
+    --background-color:#F7F7F7;
+    --hover:#a1a1a1;
+    --hoverส้ม:#ff7300;
+}
+
+hr{
+    margin-left: 13%;
+    font-size: 20px;
+    margin-bottom: 4%;
+}
+
+/* ! header ข้อความ*/
+.header-faq{
+    text-align: left;
+    margin-top: 2%;
+}
+
+.header-faq h1{
+    text-align: left;
+    margin-left: 14%;
+    font-size: 50px;
+    color: black;
+}
+
+.header-faq h3{
+    text-align: left;
+    margin-left: 14%;
+    font-size: 30px;
+    font-weight: 200;
+    color: black;
+
+}
+
+.footer{
+    margin-top: 2%;
+}
+
+/* ! header ข้อความ*/
+.content-faq h4{
+    
+    margin-left: 14%;
+    font-size: 22px;
+    font-weight: 900;
+    color: black;
+    padding-top: 3%;
+}
+
+.content-faq li {
+    list-style-type: disc;
+    margin-left: 17%;
+    font-size: 22px;
+    font-weight: 200;
+    color: black;
+    text-align: justify;
+    padding-right:10%;
+}
+
+.content-faq a {
+    color: var(--hoverส้ม);
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap');
+
+:root{
+    --background-color:#F7F7F7;
+    --hover:#a1a1a1;
+    --hoverส้ม:#ff7300;
+}
+
+/* ! home head banner area */
+.banner-area{
+    background-image: url(./img/รูปส่วนผสม.jpg);
+
+}
+
+.banner-area p{
+    text-align: center;
+    
+}
+
+#text-banner{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.ingredient{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    background-color:#ffffff ;
+    border: #000000 solid 5px;
+    border-radius: 10px;
+    bottom: 0;
+    box-shadow: 0 10px 5px #000000;
+    margin-left: 30%;
+    margin-right: 30%;
+    position: relative;
+}
+
+#hr{
+    text-align: center;
+    width: 100%;
+    border: black solid 3px;
+    position: relative;
+    bottom: 45px;
+    z-index: -1;
+}
+
+/* ! ingredient-content ส่วนผสม */
+.ceramide h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ceramide hr{
+    text-align: center;
+    border: black solid 2px;
+    margin-left: 31%;
+    margin-right: 30%;
+}
+
+.ceramide img{
+    width: 575px;
+    height: 383px;
+    margin-top: 2%;
+    position: relative;
+    margin-left: 31%;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+.ceramide p{
+    text-align: center;
+    padding-left: 31%;
+    padding-right: 30%;
+    font-size: 18px;
+    margin-top: 1%;
+}
+
+.retinol h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.retinol hr{
+    text-align: center;
+    border: black solid 2px;
+    margin-left: 31%;
+    margin-right: 30%;
+}
+
+.retinol img{
+    width: 575px;
+    height: 383px;
+    margin-top: 2%;
+    position: relative;
+    margin-left: 31%;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+.retinol p{
+    text-align: center;
+    padding-left: 31%;
+    padding-right: 30%;
+    font-size: 18px;
+    margin-top: 1%;
+}
+
+.hexyl-benzoate h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.hexyl-benzoate hr{
+    text-align: center;
+    border: black solid 2px;
+    margin-left: 31%;
+    margin-right: 30%;
+}
+
+.hexyl-benzoate img{
+    width: 575px;
+    height: 383px;
+    margin-top: 2%;
+    position: relative;
+    margin-left: 31%;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+.hexyl-benzoate p{
+    text-align: center;
+    padding-left: 31%;
+    padding-right: 30%;
+    font-size: 18px;
+    margin-top: 1%;
+}

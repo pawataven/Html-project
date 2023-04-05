@@ -1,0 +1,86 @@
+:root{
+    --background-color:#F7F7F7;
+    --hover:#a1a1a1;
+    --hoverส้ม:#ff7300;
+}
+/* !head about */
+
+hr{
+    margin-left: 13%;
+    font-size: 20px;
+}
+.header-about{
+    text-align: left  ;
+    margin-top: 2%;
+}
+
+.header-about h1{
+    text-align: left;
+    margin-left: 14%;
+    font-size: 50px;
+    color: black;
+    margin-bottom: 1%;
+}
+
+.header-about p{
+    text-align: justify;
+    text-indent: 4%;
+    margin-top: 2%;
+    margin-left: 14%;
+    margin-right: 10%;
+    text-align: left;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 2%;
+}
+
+.about-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.about-img img{
+    margin-top: 2%;
+    flex: 0 100%;
+    margin-left: 13%;
+    max-width: 50%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.content-about{
+    padding: 2%;
+}
+
+.content-about h2{
+    color: black;
+    font-size: 24px;
+    margin-bottom: 1%;
+}
+.content-about p{
+    text-align: justify;
+    text-indent: 4%;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.read-more{
+    margin-top: 2%;
+    display: inline-block;
+    color: white;
+    background-color: #ff7300;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.read-more:hover{
+    background-color: black;
+}
